@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+   
+.head{
+    border: 2px solid black;
+    height: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 2px;
+    background-color: black;
+}
+.head a{
+    text-decoration: none;
+    color:black;
+    position: relative;
+    left: 50%;
+    font-size: 20px;
+    margin: 20px;
+    color:aliceblue
+}
+
+.intro{
+    height: 600px;
+}
+
+.intro img{
+    height: 100%;
+    width: 100%;
+}
+
+.Start{
+    font-size: xx-large;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    background: transparent;
+    color:rgb(201, 224, 245)
+     
+}
+
+.project{
+     background-color: rgb(127, 127, 236);
+     color: aliceblue;
+    width: 30%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 35%;
+    top: 620px;
+    }
+
+.project a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.hiring{
+    background-color: rgb(144, 144, 236);
+    
+    width: 30%;
+    height: 50px;
+    display:inline-block;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 67%;
+    top: 620px;
+    color: aliceblue;
+}
+
+.hiring a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Service{
+    height: 500px;
+    padding: 70px;
+    padding-left: 130px;
+    background-color: black;
+}
+.Service h2{
+    color: aliceblue;
+}
+.About{
+    height: 50px;
+    margin-top: 30px;
+    width: 75%;
+    margin-left: 130px;
+    
+}
+.About h3{
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.content{
+    height: 70%;
+    width: 70%;
+    padding: 30px;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: large;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item{
+    border: 2px solid black;
+    width: 30%;
+    height: 200px;
+    align-self: flex-end;
+    flex-basis: 200vh;   
+    background-color: rgb(149, 149, 231);
+    box-shadow: 1px 1px 10px white;
+}
+
+.item h1{
+    font-size: 15vh;
+    text-align: center;
+    position: absolute;
+    top: 135vh;
+    color: aliceblue;
+}
+
+.item h2{
+    font-size: larger;
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    color: aliceblue;
+
+}
+
+.item p{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.item p a{
+    color: aliceblue;
+}
